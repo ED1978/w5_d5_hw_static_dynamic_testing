@@ -2,7 +2,6 @@
 
 # Carry out dynamic testing on the code below.
 # Correct the errors below that you spotted in task 1.
-
 class CardGame
 
 
@@ -14,13 +13,13 @@ class CardGame
     end
   end
 
-  # def highest_card(card1 card2)
-  #   if card1.value > card2.value
-  #     return card
-  #   else
-  #     return card2
-  #   end
-  # end
+  def highest_card(card1, card2)
+    if card1.value > card2.value
+      return card1.value
+    else
+      return card2.value
+    end
+  end
   #
   #
   # def self.cards_total(cards)
