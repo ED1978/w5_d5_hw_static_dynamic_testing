@@ -35,7 +35,7 @@ def self.cards_total(cards)
   for card in cards
     total += card.value
     return "You have a total of" + total
-    # total must be interpolated to output as a string
+    # total must be interpolated to output as a string, return must be outside the for loop.
   end
 end
 ```
