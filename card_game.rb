@@ -2,8 +2,8 @@
 
 # Carry out dynamic testing on the code below.
 # Correct the errors below that you spotted in task 1.
-class CardGame
 
+class CardGame
 
   def check_for_ace(card)
     if card.value == 1
